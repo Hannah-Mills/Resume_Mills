@@ -6,8 +6,18 @@ body {
     background:         linear-gradient(#648880, #937ec7);
     color:#110423;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 0px 40px 40px 40px;
+    margin: 0px 10% 0px 10%;
     padding: 10px;
+    max-width: 80%;
+    border-right: 6px solid #ffffff;
+    border-left: 6px solid #ffffff;
+}
+.main {
+    background: -webkit-linear-gradient(#937ec7, #648880);
+    background:    -moz-linear-gradient(#937ec7, #648880);
+    background:         linear-gradient(#937ec7, #648880);
+    padding: 10px;
+    border: 4px dotted #ffffff;
 }
 
 header {
@@ -33,7 +43,6 @@ header {
        flex-direction: row;
        padding: 10px;
        margin: 10px 0 10px 0;
-       
        gap: 20px;
 }
 .Objectives {
@@ -41,4 +50,7 @@ header {
 }
 .Extracariculars {
     width: 60%;
+}
+h3 {
+    font-size: 25px;
 }
